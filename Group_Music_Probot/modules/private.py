@@ -6,7 +6,7 @@ from Group_Music_Probot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SU
 
 logging.basicConfig(level=logging.INFO)
 
-GROUP_MUSIC_PROBOT_IMG = "https://telegra.ph/file/c1f364f23e17d5590ccd4.jpg"
+GROUP_MUSIC_PROBOT_IMG = "https://telegra.ph/file/f4be750f40e7d85823a78.jpg"
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
@@ -14,13 +14,13 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {BOT_NAME} 🎵
         
- Wᴀxᴀᴀɴ Aʜᴀʏ 𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁 Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ . Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...💙  Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/Maahirmohamed)😎Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/teamosmani) .....
+ Wᴀxᴀᴀɴ Aʜᴀʏ ╚»𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻«╝ Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ . Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...💙  Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)😎Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/teamosmani) .....
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url="https://t.me/FARMAAFEVERBOT?startgroup=true")
+                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url="https://t.me/Mss_Rosan_Bot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
                         "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamosmani"
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😎 Oᴡɴᴇʀ 😎", url="https://t.me/Maahirmohamed"
+                        "😎 Oᴡɴᴇʀ 😎", url="https://t.me/ribajosmani"
                     )],
             ]
         ),
