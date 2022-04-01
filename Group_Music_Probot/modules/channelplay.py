@@ -652,7 +652,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @Group_Music_Probot to your Group and try again</b>",
+                        "\n\nOr manually add @Mss_Rosan_Bot to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -697,7 +697,7 @@ async def jiosaavn(client: Client, message_: Message):
         sname = songs.result[0].song
         slink = songs.result[0].media_url
         ssingers = songs.result[0].singers
-        sthumb = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        sthumb = "https://telegra.ph/file/a8dec60784ac6e3b8b10b.jpg"
         sduration = int(songs.result[0].duration)
 
 # ==========================================================================================================================        
